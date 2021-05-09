@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #FED418;
+}
+
+header {
+  height: auto;
+  background-color: #04C4D9;
+  border-bottom: 4px solid #EAEAEA;
+  margin-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+}
+
+a {
+  font-family: "Simpsonfont", sans-serif;
+  font-size: 25px;
+  color: #EAEAEA;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F25835;
+}
+
+.menu {
+  background-color: #04C4D9;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #FF9238;
+}
+
+.social {
+  width: 30px;
+  height: 30px;
+}
+
+.redes {
+  font-size: small;
+  color: black;
+}
+
+.redes:hover {
+  font-weight: bold;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: "Simpsonfont", sans-serif;
+  margin-top: 22px;
+}
+
+.descripcionWeb {
+  text-align: center;
+}
+
+.nombreWeb {
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+}
+
+.bienvenida {
+  animation: fadeIn;
+  animation-duration: 3s;
+}
+
+p {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Mali", cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descripcionLisa, .descripcionMarge, .descripcionHomero, .descripcionBart, .descripcionMaggie {
+  display: none;
+  width: 40%;
+  font-family: "Mali", cursive;
+  font-weight: normal;
+  text-transform: none;
+}
+
+#lisa, #marge, #bart, #homero, #maggie {
+  font-family: "Simpsonfont", sans-serif;
+}
+
+.personajes:hover {
+  background-color: #FF9238;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #808080;
+}
+
+.card-body {
+  background-color: white;
+}
+
+.cards {
+  color: black;
+}
+
+.cards:hover {
+  color: #F25835;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: auto;
+}
+
+.cajas {
+  background-color: #FF9238;
+  border-radius: 10px;
+  margin: 80px;
+  color: black;
+}
+
+.preguntas {
+  font-weight: bolder;
+  color: black;
+}
+
+#smithers, #maggie, #homer {
+  width: 180px;
+  height: 220px;
+}
+
+.opciones, .pregunta3 {
+  background-color: #FF9238;
+  border-radius: 10px;
+  margin: 22px;
+}
+
+.bart-do {
+  margin: 50px;
+  color: black;
+}
+
+.leyenda {
+  font-family: "Mali", cursive;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 20px;
+  color: black;
+}
+
+.imagen {
+  width: 380px;
+  height: 338px;
+  border: 5px solid #F25835;
+  border-radius: 10px;
+}
+
+#puntajeFinal:hover {
+  border: 5px solid #F25835;
+}
+
+#frase {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.homero-black {
+  width: 340px;
+  height: auto;
+}
+
+.quote {
+  text-align: center;
+  text-transform: none;
+  font-style: cursive;
+}
+
+/*# sourceMappingURL=styles.css.map */
