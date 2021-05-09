@@ -57,18 +57,19 @@ respuestaCorrecta = document.querySelector("#opcion3");
 opcion3.onclick = ()=>{
     sumarPuntos();
     $('.pregunta2').replaceWith(`<div class = "d-flex justify-content-center">
-    <p>Adelante Lisa! Digo... tienes ${puntosAcumulados} puntos.</p> <br> <img src="img/lisa-libros.png" alt="">
+     <img src="img/lisa-libros.png" alt="">
+     <p>Adelante Lisa! Digo... tienes ${puntosAcumulados} puntos.</p> <br>
     </div>`)
 }
 document.querySelector('#opcion2')
 opcion2.onclick = ()=>{
     restarPuntos();
-    $('.pregunta2').replaceWith(`<div class = "d-flex justify-content-center"><p>Te conviene repasar algunas temporadas. Tienes ${puntosAcumulados} puntos </p> <br> <img src="img/tv.png" alt=""> </div>`)
+    $('.pregunta2').replaceWith(`<div class = "d-flex justify-content-center"><br> <img src="img/tv.png" alt=""><p>Te conviene repasar algunas temporadas. Tienes ${puntosAcumulados} puntos </p>  </div>`)
 }
 document.querySelector('#opcion1')
 opcion1.onclick = ()=>{
     restarPuntos();
-    $('.pregunta2').replaceWith(`<div class = "d-flex justify-content-center"> <p>Te conviene repasar algunas temporadas. Tienes ${puntosAcumulados} puntos </p> <br> <img src="img/tv.png" alt=""> </div>`)
+    $('.pregunta2').replaceWith(`<div class = "d-flex justify-content-center"> <img src="img/tv.png" alt="">  <p>Te conviene repasar algunas temporadas. Tienes ${puntosAcumulados} puntos </p> <br></div>`)
     
 }
 
@@ -78,22 +79,22 @@ opcion1.onclick = ()=>{
 respuestaCorrecta = document.querySelector("#opera");
 opera.onclick = () =>{
     sumarPuntos();
-    $('.pregunta3').replaceWith(`<div class = "d-flex justify-content-center"> <p>No puedo creerlo!. Tienes ${puntosAcumulados} puntos</p> <br> <img src="img/haha.png" alt=""></div>`)
+    $('.pregunta3').replaceWith(`<div class = "d-flex justify-content-center"> <img src="img/haha.png" alt=""> <p>Increible!. Tienes ${puntosAcumulados} puntos</p> <br></div>`)
 }
 document.querySelector("#drive");
 drive.onclick = () =>{
     restarPuntos();
-    $('.pregunta3').replaceWith(`<div class = "d-flex justify-content-center"><p>Me avergüenzo por los dos. Tienes ${puntosAcumulados} puntos</p> <br> <img src="img/shame.png" alt=""></div>`)
+    $('.pregunta3').replaceWith(`<div class = "d-flex justify-content-center"> <img src="img/shame.png" alt=""><p>Me avergüenzo por los dos. Tienes ${puntosAcumulados} puntos</p> <br></div>`)
 }
 document.querySelector("#dance");
 dance.onclick = () =>{
     restarPuntos();
-    $('.pregunta3').replaceWith(`<div class = "d-flex justify-content-center"><p>Me avergüenzo por los dos. Tienes ${puntosAcumulados} puntos</p> <br> <img src="img/shame.png" alt=""></div>`)
+    $('.pregunta3').replaceWith(`<div class = "d-flex justify-content-center"> <img src="img/shame.png" alt=""><p>Me avergüenzo por los dos. Tienes ${puntosAcumulados} puntos</p> <br></div>`)
 }
 document.querySelector("#karate");
 karate.onclick = () =>{
     restarPuntos();
-    $('.pregunta3').replaceWith(`<div class = "d-flex justify-content-center"><p>Me avergüenzo por los dos. Tienes ${puntosAcumulados} puntos</p> <br> <img src="img/shame.png" alt=""> </div>`)
+    $('.pregunta3').replaceWith(`<div class = "d-flex justify-content-center"> <img src="img/shame.png" alt=""><p>Me avergüenzo por los dos. Tienes ${puntosAcumulados} puntos</p> <br> </div>`)
 }
 
 //Round 4
@@ -101,17 +102,17 @@ karate.onclick = () =>{
 respuestaCorrecta = document.querySelector("#margo");
 margo.onclick = () =>{
     sumarPuntos();
-    $('.pregunta4').replaceWith(`<div class = "d-flex justify-content-center"><p> Excelente! Tienes ${puntosAcumulados} puntos</p> <br> <img src="img/burns.png" alt=""></div>`)
+    $('.pregunta4').replaceWith(`<div class = "d-flex justify-content-center"> <img src="img/burns.png" alt=""><p> Excelente! Tienes ${puntosAcumulados} puntos</p> <br></div>`)
 }
 document.querySelector("#loreley");
 loreley.onclick = () =>{
     restarPuntos();
-    $('.pregunta4').replaceWith(`<div class = "d-flex justify-content-center"><p>¿No puedes pasar más de 5 minutos sin humillarte? Tienes ${puntosAcumulados} puntos</p> <br> <img src="img/doh.png" alt=""></div>`)
+    $('.pregunta4').replaceWith(`<div class = "d-flex justify-content-center"> <img src="img/doh.png" alt=""><p>¿No puedes pasar más de 5 minutos sin humillarte? Tienes ${puntosAcumulados} puntos</p> <br></div>`)
 }
 document.querySelector("#odalisca");
 odalisca.onclick = () =>{
     restarPuntos();
-    $('.pregunta4').replaceWith(`<div class = "d-flex justify-content-center"><p>¿No puedes pasar más de 5 minutos sin humilllarte? Tienes ${puntosAcumulados} puntos</p> <br> <img src="img/doh.png" alt=""></div>`)
+    $('.pregunta4').replaceWith(`<div class = "d-flex justify-content-center"> <img src="img/doh.png" alt=""><p>¿No puedes pasar más de 5 minutos sin humilllarte? Tienes ${puntosAcumulados} puntos</p> <br></div>`)
 }
 
 //Round 5
@@ -119,7 +120,7 @@ odalisca.onclick = () =>{
 respuestaCorrecta = document.querySelector("#tres")
 tres.onclick = () =>{
     sumarPuntos();
-    $('.pregunta5').replaceWith(`<div class = "d-flex justify-content-center"><p>Increíble, lo hiciste de nuevo! <br> <img src = "img/maggie-surprise.png" alt=""></div>`)
+    $('.pregunta5').replaceWith(`<div class = "d-flex justify-content-center"> <img src = "img/maggie-surprise.png" alt=""><p>Lo hiciste de nuevo! <br></div>`)
 }
 document.querySelector("#cinco");
 cinco.onclick = () =>{
